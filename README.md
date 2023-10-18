@@ -36,4 +36,52 @@ Impulse - Online Chat
 
 &emsp;&emsp;&emsp;&emsp;:small_blue_diamond: Реализовать профиль пользователя, статус;
 
-&emsp;&emsp;&emsp;&emsp;:small_blue_diamond: Реализовать редактирование и удаление сообщений;
+&emsp;&emsp;&emsp;&emsp;:small_blue_diamond: Реализовать редактирование и удаление сообщений.
+
+<h3 align="center">
+    Описание решения
+</h3>
+
+<p align="justify">&emsp;&emsp;Основой нашего решения служит клиент-серверная архитектура, основанная на технологии WebSocket</p>
+
+<p align="center">
+    <img src="architecture.png">
+</p>
+
+<h3 align="center">
+    Выбранный стек
+</h3>
+
+&emsp;&emsp;&emsp;&emsp;:triangular_flag_on_post: Backend - Python (asyncio, aiohttp (надстройка для работы с HTTP внутри asyncio), websockets);
+
+&emsp;&emsp;&emsp;&emsp;:triangular_flag_on_post: Frontend - HTML5/CSS3;
+
+&emsp;&emsp;&emsp;&emsp;:triangular_flag_on_post: Database - PostgreSQL;
+
+&emsp;&emsp;&emsp;&emsp;:triangular_flag_on_post: Containerization - Docker;
+
+<h3 align="center">
+    Демо в картинках
+</h3>
+
+<p align="center">
+    <img src="architecture.png">
+</p>
+
+<p align="center">
+    <img src="architecture.png">
+</p>
+
+<p align="center">
+    <img src="architecture.png">
+</p>
+
+<h3 align="center">
+    Участники проекта
+</h3>
+
+&emsp;&emsp;&emsp;&emsp;:octocat: Иорин Давид Андреевич - Team Leader, Backend Developer;
+
+&emsp;&emsp;&emsp;&emsp;:octocat: Богданов Данила Андреевич - DevOps, Software Architect;
+
+&emsp;&emsp;&emsp;&emsp;:octocat: Беляев Иван Дмитриевич - Frontend Developer;
