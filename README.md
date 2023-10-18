@@ -65,7 +65,7 @@ Impulse - Online Chat
 </h3>
 
 <p align="center">
-    <img src="register.png">
+    <img src="screenshots/register.png">
 </p>
 
 <p align="center">
