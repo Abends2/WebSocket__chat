@@ -52,7 +52,7 @@ Impulse - Online Chat
     Выбранный стек
 </h3>
 
-&emsp;&emsp;&emsp;&emsp;:triangular_flag_on_post: Backend - Python (asyncio, aiohttp (надстройка для работы с HTTP внутри asyncio), websockets);
+&emsp;&emsp;&emsp;&emsp;:triangular_flag_on_post: Backend - Python (asyncio, asyncpg (работа с БД), aiohttp (надстройка для работы с HTTP внутри asyncio), websockets);
 
 &emsp;&emsp;&emsp;&emsp;:triangular_flag_on_post: Frontend - HTML5/CSS3;
 
