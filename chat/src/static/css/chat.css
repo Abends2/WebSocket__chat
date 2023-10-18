@@ -1,0 +1,63 @@
+html {
+	height: 100%;
+	width: 100%;
+	background-color: #000031;
+	transition: background-color 300ms linear;
+}
+
+.messageBox-wrapper {
+	display: flex;
+    align-items: flex-end;
+}
+
+.app-wrapper {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	font-family: 'Trispace', sans-serif;
+}
+
+.main-container {
+	text-align: center;
+	width: 800px;
+	height: 600px;
+	border: 2px solid #ff0849;
+	filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.08));
+	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	background-color: #010223;
+	transition: background-color 300ms linear;
+	color: #ccff00;
+}
+
+
+.messageBox {
+	margin-top: 10px;
+	width: 83%;
+	height: 49px;
+}
+
+
+.send-btn {
+		padding: 16px 42px;
+		border-radius: 3px;
+		box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.5);
+		line-height: 1.25;
+		background: #00BFFF;
+		text-decoration: none;
+		color: white;
+		font-size: 16px;
+		letter-spacing: .08em;
+		text-transform: uppercase;
+		position: relative;
+		transition: background-color .6s ease;
+		overflow: hidden;
+}
+
+.send-btn:hover {
+	background: #ccff00;
+	color: #000000;
+}

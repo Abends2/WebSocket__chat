@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/app/src/static/css/login_register.css" />
+    <link rel="icon" type="image/png" href="/app/src/static/img/favicon.png"/>
+    <title>WebSockets Online Chat</title>
+</head>
+<body>
+    <div class="app">
+        <div class="app-wrapper">
+            <main class="app-main-content">
+                <div class="container-logo">
+                        <img class="logo" src="/app/src/static/img/logo-white.png" alt=''/>
+                </div>
+
+                <div class="main-container">
+                    <h3 class="login">Регистрация</h3>
+                    <form action="/register" method="post">
+                        <label>
+                            <p class="nickname-or-phone">Введите данные для регистрации</p>
+                            <input type="text" name="username" class="username" placeholder="Username"/>
+                        </label>
+
+                        <label>
+                            <input type="password" name="password" class="username" placeholder="Password"/>
+                        </label>
+
+                        <div>
+                            <button class="login-button" type="submit">
+                                <span>Подтвердить</span>
+                            </button>
+                        </div>
+                    </form>
+
+                    <div class="footer">
+                        <span>Уже есть аккаунт?</span>
+                        <a href="/login_page" class="link">Войти</a>
+                    </div>
+
+                    <div class="back-to-homepage">
+                        <a href="/" class="link">Вернуться на главную</a>
+                    </div>
+                </div>
+            </main>
+        </div> 
+    </div>
+</body>
+</html>

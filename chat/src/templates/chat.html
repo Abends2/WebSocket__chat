@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/app/src/static/css/chat.css" />
+    <link rel="icon" type="image/png" href="/app/src/static/img/favicon.png"/>
+    <title>Websocket Chat</title>
+</head>
+<body>
+    <div class="app">
+        <div class="app-wrapper">
+            <div class="main-container">
+                <h2 class="chat-header">Session was created!</h2>
+                <div style="border: 2px solid black" id="messages-container"></div>
+            </div>
+
+        <div id="messages"></div>
+        <div class="messageBox-wrapper">
+            <textarea class="messageBox" id="messageBox"></textarea>
+            <button class="send-btn" onclick="sendMessage()">Send</button>
+        </div>
+        
+
+        <script>
+            const urlParams = new URLSearchParams(window.location.search);
+            // Get the token parameter
+            const token = urlParams.get('token');
+
+            let ws = new WebSocket("wss://0.0.0.0/chat?token="+ token);
+            ws.onmessage = function(event) {
+                let messages = document.getElementById('messages');
+                messages.innerHTML += '<br>' + event.data;
+            };
+
+            function sendMessage() {
+                let messageBox = document.getElementById('messageBox');
+                ws.send(messageBox.value);
+                messageBox.value = '';
+            }
+        </script>
+</body>
+</html>

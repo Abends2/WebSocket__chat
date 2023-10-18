@@ -1,0 +1,21 @@
+version: "1"
+
+services:
+  websocket-chat:
+    build: .
+    depends_on:
+      - chat_db
+    commands: pip install -r requirements.txt && python main.py
+    ports:
+      - 31337:31337
+  chat_db:
+    restart: always
+    image: postgres:15.2
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: chat
+    volumes:
+      - ./pgdata:/var/lib/postgresql/data
+    ports:
+      - 5433:5432
