@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="URL">
+    <img src="screenshots/logo.png">
 </p>
 
 <h1 align="center">
@@ -45,7 +45,7 @@ Impulse - Online Chat
 <p align="justify">&emsp;&emsp;Основой нашего решения служит клиент-серверная архитектура, основанная на технологии WebSocket</p>
 
 <p align="center">
-    <img src="architecture.png">
+    <img src="screenshots/architecture.png">
 </p>
 
 <h3 align="center">
@@ -65,15 +65,19 @@ Impulse - Online Chat
 </h3>
 
 <p align="center">
-    <img src="architecture.png">
+    <img src="register.png">
 </p>
 
 <p align="center">
-    <img src="architecture.png">
+    <img src="screenshots/login.png">
 </p>
 
 <p align="center">
-    <img src="architecture.png">
+    <img src="screenshots/home.png">
+</p>
+
+<p align="center">
+    <img src="screenshots/chat.png">
 </p>
 
 <h3 align="center">
