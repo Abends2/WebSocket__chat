@@ -65,15 +65,15 @@ Impulse - Online Chat
 </h3>
 
 <p align="center">
+    <img src="screenshots/home.png">
+</p>
+
+<p align="center">
     <img src="screenshots/register.png">
 </p>
 
 <p align="center">
     <img src="screenshots/login.png">
-</p>
-
-<p align="center">
-    <img src="screenshots/home.png">
 </p>
 
 <p align="center">
